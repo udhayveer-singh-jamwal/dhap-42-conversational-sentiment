@@ -1,0 +1,28 @@
+dataset: conversational_sentiment
+version: "1.0"
+description: >
+  Runtime schema contract for DHAP-42. Column names and required data types
+  are enforced before transformation. Nullable values are permitted only where
+  the source dataset contains them; the transform step normalizes and removes
+  invalid records before the Parquet sink.
+primary_key: [id]
+columns:
+  - name: id
+    type: integer
+    nullable: false
+  - name: conversation_id
+    type: string
+    nullable: false
+  - name: speaker
+    type: string
+    nullable: false
+  - name: text
+    type: string
+    nullable: false
+  - name: sentiment
+    type: string
+    nullable: true
+  - name: created_at
+    type: timestamp
+    nullable: false
+    format: "%Y-%m-%d %H:%M:%S"

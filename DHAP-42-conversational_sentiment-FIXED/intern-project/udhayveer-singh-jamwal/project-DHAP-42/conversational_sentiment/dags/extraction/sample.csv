@@ -1,0 +1,23 @@
+id,conversation_id,speaker,text,sentiment,created_at
+1,CONV-0001,agent,Thanks so much for fixing my order so quickly!,positive,2025-01-01 12:40:00
+2,CONV-0002,customer,This is the third time my package has been delayed.,negative,2025-01-01 15:07:00
+3,CONV-0003,agent,Can you tell me your business hours?,neutral,2025-01-01 18:01:00
+4,CONV-0004,customer,Your support team was incredibly rude to me today.,negative,2025-01-01 21:47:00
+5,CONV-0005,agent,I love how easy it was to set up my new account.,positive,2025-01-02 00:17:00
+6,CONV-0006,customer,The app keeps crashing every time I open it.,negative,2025-01-02 03:15:00
+7,CONV-0007,agent,What payment methods do you accept?,neutral,2025-01-02 06:14:00
+8,CONV-0008,customer,"Great job on the recent update, much faster now!",positive,2025-01-02 09:08:00
+9,CONV-0009,agent,I've been waiting on hold for over 40 minutes.,negative,2025-01-02 12:47:00
+10,CONV-0010,customer,Could you send me a copy of my invoice?,neutral,2025-01-02 15:06:00
+11,CONV-0011,agent,"The refund was processed super fast, thank you!",positive,2025-01-02 18:43:00
+12,CONV-0012,customer,Nobody has responded to my email in a week.,negative,2025-01-02 21:47:00
+13,CONV-0013,agent,Is there a mobile app available for this service?,neutral,2025-01-03 00:57:00
+14,CONV-0014,customer,Your customer service representative was very helpful.,positive,2025-01-03 03:34:00
+15,CONV-0015,agent,I'm extremely disappointed with the quality I received.,negative,2025-01-03 06:05:00
+16,CONV-0016,customer,How do I update my shipping address?,neutral,2025-01-03 09:37:00
+17,CONV-0017,agent,"The new feature is exactly what I needed, well done!",positive,2025-01-03 12:27:00
+18,CONV-0018,customer,This product broke after just two days of use.,negative,2025-01-03 15:02:00
+19,CONV-0019,agent,Do you offer discounts for bulk orders?,neutral,2025-01-03 18:01:00
+20,CONV-0020,customer,I appreciate how transparent your pricing is.,positive,2025-01-03 21:05:00
+21,CONV-0021,customer,  Extra   spaces in this message   ,Positive,2025-01-05 10:00:00
+22,CONV-0022,agent,"Thank you for reaching out, happy to help!",,2025-01-05 11:15:00

@@ -1,0 +1,12 @@
+dataset_name: conversational_sentiment
+source: "Conversational Sentiment Dataset (sample export from Glynac non-classes dataset list, item #127)"
+owner: "Udhayveer Singh Jamwal (Data Engineering Intern)"
+status: validated
+description: >
+  Short customer/agent dialogue turns labeled with overall sentiment.
+  Reused from DHAP-34 for the DHAP-42 CSV -> Parquet -> MinIO pipeline.
+file: dags/extraction/sample.csv
+row_count: 22
+primary_key: id
+partition_column: created_date
+last_updated: "2025-01-05"
